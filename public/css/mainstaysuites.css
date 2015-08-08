@@ -1,0 +1,27 @@
+/*****************************************************
+Colors and styles for Main Stay Suites
+*****************************************************/
+
+div#CH-WEBSPI {
+  background-color: #003d71;
+  padding: 15px;
+}
+
+#CH-WEBSPI-Reserve label {
+  color: #f2f2f2;
+}
+
+button#getRate {
+  background-color: rgba(0,0,0,0.4);
+  color: #f2f2f2;
+}
+
+button#getRate:hover {
+  background-color: #F9E827;
+  color: #444;
+  transition: 0.5s;
+}
+
+p#CH-WEBSPI-Reserve-ErrorMsg {
+  color: #FFD0D0;
+}

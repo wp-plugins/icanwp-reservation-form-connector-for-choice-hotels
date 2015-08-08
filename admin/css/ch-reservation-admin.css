@@ -1,0 +1,38 @@
+/**
+* All of the CSS for your admin-specific functionality should be
+* included in this file.
+*/
+.clearfix {
+clear:both;
+}
+li#toplevel_page_ch_admin_menu .dashicons-before img {
+padding: 7px 0 0 0;
+width: 18px;
+}
+.ch_shortcode_select{
+background-color:#FFFEC3;
+}
+span.ch_warning {
+color: #D20909;
+}
+form.ch-reservation-admin-menu-form {
+padding-top: 15px;
+}
+input#ch_reservation_input_choicehotels_url[type="text"] {
+width: 50%;
+}
+div#ch_reservation-plugin-desc img {
+width: 50%;
+min-width: 500px;
+max-width: 800px;
+}
+div#ch_reservation_settings_desc ul {
+  padding-left: 20px;
+}
+div#ch_reservation_settings_desc li {
+list-style-type: initial;
+}
+p.submit {
+margin: 0;
+padding-bottom: 5px;
+}

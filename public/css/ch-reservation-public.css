@@ -1,0 +1,678 @@
+/* Reset */
+div.ch-reservation-form-container input,
+div.ch-reservation-form-container p,
+div.ch-reservation-form-container div,
+select.ch-reservation-rate-plan-code,
+button.ch-reservation-get-rate{
+  margin:0;
+  padding:0;
+  border-radius: 0;
+}
+
+.ch-reservation-form {
+  width: 100%;
+}
+
+/****************
+jQuery UI CSS
+****************/
+/* Arrows */
+.ch-reservation-form-container .ch-reservation-form .ui-widget-header .ui-icon,
+.ch-reservation-cal .ui-widget-header .ui-icon {
+  background-image: url('./images/ui-icons_222222_256x240.png');
+}
+.ch-reservation-form-container .ch-reservation-form .ui-widget-header a,
+.ch-reservation-cal .ui-widget-header a {
+  color: #222222;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-corner-all,
+.ch-reservation-form-container .ch-reservation-form .ui-corner-bottom,
+.ch-reservation-form-container .ch-reservation-form .ui-corner-right,
+.ch-reservation-form-container .ch-reservation-form .ui-corner-br {
+  border-bottom-right-radius: 4px;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-corner-all,
+.ch-reservation-form-container .ch-reservation-form .ui-corner-bottom,
+.ch-reservation-form-container .ch-reservation-form .ui-corner-left,
+.ch-reservation-form-container .ch-reservation-form .ui-corner-bl,
+.ch-reservation-cal .ui-corner-all,
+.ch-reservation-cal .ui-corner-bottom,
+.ch-reservation-cal .ui-corner-left,
+.ch-reservation-cal .ui-corner-bl {
+  border-bottom-left-radius: 4px;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-corner-all,
+.ch-reservation-form-container .ch-reservation-form .ui-corner-top,
+.ch-reservation-form-container .ch-reservation-form .ui-corner-right,
+.ch-reservation-form-container .ch-reservation-form .ui-corner-tr,
+.ch-reservation-cal .ui-corner-all,
+.ch-reservation-cal .ui-corner-top,
+.ch-reservation-cal .ui-corner-right,
+.ch-reservation-cal .ui-corner-tr {
+  border-top-right-radius: 4px;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-corner-all,
+.ch-reservation-form-container .ch-reservation-form .ui-corner-top,
+.ch-reservation-form-container .ch-reservation-form .ui-corner-left,
+.ch-reservation-form-container .ch-reservation-form .ui-corner-tl,
+.ch-reservation-cal .ui-corner-all,
+.ch-reservation-cal .ui-corner-top,
+.ch-reservation-cal .ui-corner-left,
+.ch-reservation-cal .ui-corner-tablel {
+  border-top-left-radius: 4px;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-widget-content,
+.ch-reservation-cal .ui-widget-content {
+  border: 1px solid #aaaaaa;
+  background: #ffffff url('./images/ui-bg_flat_75_ffffff_40x100.png') 50% 50% repeat-x;
+  color: #222222;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-icon,
+.ch-reservation-form-container .ch-reservation-form .ui-widget-content .ui-icon,
+.ch-reservation-cal .ui-icon,
+.ch-reservation-cal .ui-widget-content .ui-icon {
+  background-image: url('./images/ui-icons_222222_256x240.png');
+}
+.ui-datepicker.ch-reservation-cal {
+  width: 17em;
+  padding: .2em .2em 0;
+  display: none;
+}
+.ui-helper-clearfix.ch-reservation-cal {
+  min-height: 0;
+  /* support: IE7; */
+}
+.ui-helper-clearfix.ch-reservation-cal:before,
+.ui-helper-clearfix.ch-reservation-cal:after,
+.ch-reservation-cal .ui-helper-clearfix:before,
+.ch-reservation-cal .ui-helper-clearfix:after {
+  content: "";
+  display: table;
+  border-collapse: collapse;
+}
+.ch-reservation-cal .ui-widget-header {
+  border: 1px solid #aaaaaa;
+  background: #cccccc url('./images/ui-bg_highlight-soft_75_cccccc_1x100.png') 50% 50% repeat-x;
+  color: #222222;
+  font-weight: bold;
+}
+.ch-reservation-cal span.ui-icon.ui-icon-circle-triangle-e {
+  float: right;
+}
+.ch-reservation-cal span.ui-icon-circle-triangle-w {
+  background-position: -80px -192px;
+}
+.ch-reservation-cal span.ui-icon.ui-icon-circle-triangle-e {
+  float: right;
+}
+.ch-reservation-cal span.ui-icon-circle-triangle-e {
+  background-position: -48px -192px;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-icon,
+.ch-reservation-cal .ui-icon {
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.ch-reservation-form-container .ch-reservation-form a.ui-state-default {
+  background-color: rgb(218, 218, 218);
+}
+.ch-reservation-form-container .ch-reservation-form .ui-icon,
+.ch-reservation-form-container .ch-reservation-form .ui-widget-content .ui-icon,
+.ch-reservation-cal .ui-icon,
+.ch-reservation-cal .ui-widget-content .ui-icon {
+  background-image: url('./images/ui-icons_222222_256x240.png');
+}
+.ch-reservation-cal .ui-state-default,
+.ch-reservation-cal .ui-widget-content .ui-state-default,
+.ch-reservation-cal .ui-widget-header .ui-state-default,
+.ch-reservation-form-container .ch-reservation-form .ui-state-default,
+.ch-reservation-form-container .ch-reservation-form .ui-widget-content .ui-state-default,
+.ch-reservation-form-container .ch-reservation-form .ui-widget-header .ui-state-default {
+  border: 1px solid #d3d3d3;
+  background: #e6e6e6 url('./images/ui-bg_glass_75_e6e6e6_1x400.png') 50% 50% repeat-x;
+  font-weight: normal;
+  color: #555555;
+}
+.ch-reservation-cal .ui-state-disabled,
+.ch-reservation-cal .ui-widget-content .ui-state-disabled,
+.ch-reservation-cal .ui-widget-header .ui-state-disabled {
+  opacity: .35;
+  filter: Alpha(Opacity=35);
+  /* support: IE8; */
+  background-image: none;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-button-text-only .ui-button-text {
+  padding: .4em 1em;
+}
+/**********************
+Spinner Styles
+***********************/
+.ch-reservation-form-container .ch-reservation-form .ui-spinner {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0;
+  vertical-align: middle;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-widget .ui-widget,
+.ch-reservation-cal .ui-widget .ui-widget {
+  font-size: 1em;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-spinner-input {
+  border: none!important;
+  background: none;
+  color: inherit;
+  padding: 0;
+  margin: 4px 0;
+  vertical-align: middle;
+  margin-left: .4em;
+  margin-right: 22px;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-spinner-up {
+  top: 0;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-spinner-down {
+  bottom: 0;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-spinner a.ui-spinner-button {
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  cursor: pointer;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-spinner-button {
+  width: 16px;
+  height: 50%;
+  font-size: .5em;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  cursor: default;
+  display: block;
+  overflow: hidden;
+  right: 0;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-button .ui-button-text {
+  display: block;
+  line-height: normal;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-spinner .ui-icon {
+  position: absolute;
+  margin-top: -8px;
+  top: 50%;
+  left: 0;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-state-default .ui-icon,
+.ch-reservation-cal .ui-state-default .ui-icon {
+  background-image: url('./images/ui-icons_888888_256x240.png');
+}
+.ch-reservation-form-container .ch-reservation-form .ui-icon-triangle-1-n {
+  background-position: 0 -16px;
+}
+.ch-reservation-form-container .ch-reservation-form .ui-spinner .ui-icon-triangle-1-s {
+  background-position: -65px -16px;
+}
+
+/**********************
+Datepicker Styles
+***********************/
+div#ui-datepicker-div.ch-reservation-cal {
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.ch-reservation-cal .ui-widget-header .ui-icon {
+  background-image: url('./images/ui-icons_222222_256x240.png');
+}
+.ch-reservation-cal .ui-state-disabled,
+.ch-reservation-cal .ui-widget-content .ui-state-disabled,
+.ch-reservation-cal .ui-widget-header .ui-state-disabled {
+  opacity: .35;
+  filter: Alpha(Opacity=35);
+  /* support: IE8; */
+  background-image: none;
+}
+.ch-reservation-cal .ui-datepicker-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+.ch-reservation-cal .ui-icon,
+.ch-reservation-form-container .ch-reservation-form .ui-icon{
+  width: 16px;
+  height: 16px;
+}
+.ui-datepicker.ch-reservation-cal .ui-datepicker-prev {
+  left: 2px;
+}
+.ui-datepicker.ch-reservation-cal .ui-datepicker-next {
+  right: 2px;
+}
+.ui-datepicker.ch-reservation-cal .ui-datepicker-prev,
+.ui-datepicker.ch-reservation-cal .ui-datepicker-next {
+  position: absolute;
+  top: 2px;
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.ui-datepicker.ch-reservation-cal .ui-datepicker-prev span,
+.ui-datepicker.ch-reservation-cal .ui-datepicker-next span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -8px;
+  top: 50%;
+  margin-top: -8px;
+}
+.ch-reservation-cal table.ui-datepicker-calendar th {
+  padding: 5px;
+}
+
+.ch-reservation-cal span.ui-icon.ui-icon-circle-triangle-e {
+  float: right;
+}
+
+.ch-reservation-cal a.ui-state-default:hover,
+.ch-reservation-form-container .ch-reservation-form a.ui-state-default:hover {
+  text-decoration: underline;
+}
+/* Datepicker */
+.ui-datepicker.ch-reservation-cal {
+  width: 17em;
+  padding: .2em .2em 0;
+  display: none;
+}
+.ui-datepicker.ch-reservation-cal .ui-datepicker-header {
+  position: relative;
+  padding: .2em 0;
+}
+.ui-datepicker.ch-reservation-cal .ui-datepicker-prev,
+.ui-datepicker.ch-reservation-cal .ui-datepicker-next {
+  position: absolute;
+  top: 2px;
+  width: 1.8em;
+  height: 1.8em;
+}
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+  top: 1px;
+}
+.ui-datepicker.ch-reservation-cal .ui-datepicker-prev {
+  left: 2px;
+}
+.ui-datepicker.ch-reservation-cal .ui-datepicker-next {
+  right: 2px;
+}
+.ui-datepicker.ch-reservation-cal .ui-datepicker-prev-hover {
+  left: 1px;
+}
+.ui-datepicker.ch-reservation-cal .ui-datepicker-next-hover {
+  right: 1px;
+}
+.ui-datepicker.ch-reservation-cal .ui-datepicker-prev span,
+.ui-datepicker.ch-reservation-cal .ui-datepicker-next span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -8px;
+  top: 50%;
+  margin-top: -8px;
+}
+.ui-datepicker.ch-reservation-cal .ui-datepicker-title {
+  margin: 0 2.3em;
+  line-height: 1.8em;
+  text-align: center;
+}
+.ui-datepicker.ch-reservation-cal .ui-datepicker-title select {
+  font-size: 1em;
+  margin: 1px 0;
+}
+.ui-datepicker.ch-reservation-cal select.ui-datepicker-month,
+.ui-datepicker.ch-reservation-cal select.ui-datepicker-year {
+  width: 45%;
+}
+.ui-datepicker.ch-reservation-cal table {
+  width: 100%;
+  font-size: .9em;
+  border-collapse: collapse;
+  margin: 0 0 .4em;
+}
+.ui-datepicker.ch-reservation-cal th {
+  padding: .7em .3em;
+  text-align: center;
+  font-weight: bold;
+  border: 0;
+}
+.ui-datepicker.ch-reservation-cal td {
+  border: 0;
+  padding: 1px;
+}
+.ui-datepicker.ch-reservation-cal td span,
+.ui-datepicker.ch-reservation-cal td a {
+  display: block;
+  padding: .2em;
+  text-align: right;
+  text-decoration: none;
+}
+.ui-datepicker.ch-reservation-cal .ui-datepicker-buttonpane {
+  background-image: none;
+  margin: .7em 0 0 0;
+  padding: 0 .2em;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.ui-datepicker.ch-reservation-cal .ui-datepicker-buttonpane button {
+  float: right;
+  margin: .5em .2em .4em;
+  cursor: pointer;
+  padding: .2em .6em .3em .6em;
+  width: auto;
+  overflow: visible;
+}
+.ui-datepicker.ch-reservation-cal .ui-datepicker-buttonpane button.ui-datepicker-current {
+  float: left;
+}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi.ch-reservation-cal {
+  width: auto;
+}
+.ui-datepicker-multi.ch-reservation-cal .ui-datepicker-group {
+  float: left;
+}
+.ui-datepicker-multi.ch-reservation-cal .ui-datepicker-group table {
+  width: 95%;
+  margin: 0 auto .4em;
+}
+.ui-datepicker-multi-2.ch-reservation-cal .ui-datepicker-group {
+  width: 50%;
+}
+.ui-datepicker-multi-3.ch-reservation-cal .ui-datepicker-group {
+  width: 33.3%;
+}
+.ui-datepicker-multi-4.ch-reservation-cal .ui-datepicker-group {
+  width: 25%;
+}
+.ui-datepicker-multi.ch-reservation-cal .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi.ch-reservation-cal .ui-datepicker-group-middle .ui-datepicker-header {
+  border-left-width: 0;
+}
+.ui-datepicker-multi.ch-reservation-cal .ui-datepicker-buttonpane {
+  clear: left;
+}
+.ui-datepicker-row-break {
+  clear: both;
+  width: 100%;
+  font-size: 0;
+}
+
+/* RTL support */
+.ui-datepicker-rtl {
+  direction: rtl;
+}
+.ui-datepicker-rtl .ui-datepicker-prev {
+  right: 2px;
+  left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next {
+  left: 2px;
+  right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+  right: 1px;
+  left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+  left: 1px;
+  right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+  clear: right;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+  float: left;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+  float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+  border-right-width: 0;
+  border-left-width: 1px;
+}
+
+/***************
+ GLOBAL CSS
+***************/
+
+form.ch-reservation-form > div {
+  float: left;
+  margin-right: 1%;
+}
+
+.ch-reservation-form label {
+  display: block;
+  font-size: 0.688em;
+  margin-bottom: 3px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+form.ch-reservation-form {
+  display: inline-block;
+}
+
+.hasDatepicker:hover, input.ch-reservation-spinner-input:hover, .ui-spinner-button:hover, select.ch-reservation-rate-plan-code:hover, button.ch-reservation-get-rate:hover {
+  cursor: pointer;
+}
+
+/****************************
+CHECK IN & CHECK OUT FIELDS
+*****************************/
+
+.hasDatepicker {
+  width: 100%;
+  font-size: 1em;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  height: 28px;
+}
+
+div.ch-reservation-check-in-container,
+div.ch-reservation-check-out-container {
+  width: 15%;
+}
+
+.ch-reservation-form-container input.ch-reservation-check-out-date,
+.ch-reservation-form-container input.ch-reservation-check-in-date {
+  background-image: url('../assets/calendar.png');
+  background-size: contain;
+  background-position: right center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 28px;
+  color: #333;
+  padding-left: 5px!important;
+}
+
+/*********************************
+ROOMS / ADULTS / CHILDREN FIELDS
+**********************************/
+
+form.ch-reservation-form .ch-reservation-spinner-input {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 0;
+  padding-left: 5px;
+  font-size: 1em;
+}
+
+div.ch-reservation-rooms-container, div.ch-reservation-adults-container, div.ch-reservation-minors-container {
+  width: 7%;
+}
+
+form.ch-reservation-form span.ui-spinner.ui-widget.ui-widget-content.ui-corner-all {
+  border: none;
+  border-radius: 0;
+  height: 28px;
+  width: 100%;
+}
+
+/*********************
+ SELECT RATE FIELD
+ *********************/
+
+div.ch-reservation-rate-code-container {
+  width: 25%;
+}
+
+select.ch-reservation-rate-plan-code {
+  width: 100%;
+  font-size: 1em;
+  height: 28px;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  border-radius: 0;
+  padding-left: 4px;
+}
+
+/************************
+FIND RATE BUTTON FIELD
+*************************/
+
+.ch-reservation-form-container div.ch-reservation-button-container {
+  margin-right: 0!important;
+}
+
+button.ch-reservation-get-rate {
+  border: none;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  transition: 0.5s;
+  text-transform: uppercase;
+  border-radius: 0;
+  height: 28px;
+}
+
+div.ch-reservation-button-container {
+  width: 18%;
+}
+
+.ch-reservation-button-container label {
+  opacity: 0;
+}
+
+/*****************
+ERROR CODE FIELD
+******************/
+
+div.ch-reservation-form-ErrorCode {
+  width: 100%;
+}
+
+p.ch-reservation-form-ErrorMsg {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*****************
+MEDIA QUERIES
+******************/
+
+/*Same as 800px*/
+@media (max-width: 50.000em) {
+form.ch-reservation-form > div {
+  margin-right: 2%;
+}
+
+.ch-reservation-form-container .ch-reservation-check-out-container {
+  margin-right: 0;
+}
+
+.ch-reservation-form-container .ch-reservation-minors-container {
+  margin-right: 0;
+}
+
+div.ch-reservation-form-container div.ch-reservation-check-in-container, div.ch-reservation-form-container div.ch-reservation-check-out-container {
+  width: 49%;
+  margin-bottom: 15px;
+}
+
+.ch-reservation-form-container div.ch-reservation-rooms-container, .ch-reservation-form-container div.ch-reservation-adults-container, .ch-reservation-form-container div.ch-reservation-minors-container {
+  width: 32%;
+  margin-bottom: 15px;
+}
+
+.ch-reservation-form-container div.ch-reservation-rate-code-container {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+div.ch-reservation-button-container {
+  width: 25%;
+}
+
+.ch-reservation-form-container div.ch-reservation-button-container {
+  width: 100%;
+  margin-top: 0;
+}
+
+button.ch-reservation-get-rate {
+  padding: 10px 15px;
+  width: 100%;
+  font-size: 1.125em;
+  height: auto;
+}
+
+}
+
+/*Same as 600px*/
+@media (max-width: 37.500em) {
+
+div.ch-reservation-check-in-container {
+  padding-right: 0;
+}
+
+div.ch-reservation-rooms-container, div.ch-reservation-adults-container, div.ch-reservation-minors-container {
+  width: 33.333333%;
+  margin-bottom: 15px;
+}
+
+.ch-reservation-form span.ui-spinner.ui-widget.ui-widget-content.ui-corner-all {
+  width: 95%;
+}
+
+div.ch-reservation-check-in-container, div.ch-reservation-check-out-container {
+  width: 50%;
+}
+
+.hasDatepicker {
+  width: 95%;
+}
+
+
+}
+
+/*Same as 400px*/
+@media (max-width: 25.000em) {
+
+div.ch-reservation-check-in-container, div.ch-reservation-check-out-container {
+  width: 100%;
+  padding-right: 0!important;
+}
+
+.hasDatepicker {
+  width: 98%;
+}
+
+}

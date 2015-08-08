@@ -1,0 +1,27 @@
+/*****************************************************
+Colors and styles for Econo Lodge
+*****************************************************/
+
+div#CH-WEBSPI {
+  background-color: #E51A23;
+  padding: 15px;
+}
+
+#CH-WEBSPI-Reserve label {
+  color: #f2f2f2;
+}
+
+button#getRate {
+  background-color: #F4B46D;
+  color: #444;
+}
+
+button#getRate:hover {
+  background-color: #C0313A;
+  color: #f2f2f2;
+  transition: 0.5s;
+}
+
+p#CH-WEBSPI-Reserve-ErrorMsg {
+  color: #FFD0D0;
+}

@@ -1,0 +1,51 @@
+
+form.ch-reservation-form > div {
+  margin-right: 0;
+}
+
+div.ch-reservation-form-container div.ch-reservation-check-in-container, div.ch-reservation-form-container div.ch-reservation-check-out-container {
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.ch-reservation-form-container div.ch-reservation-check-in-container {
+  padding-right: 10px;
+}
+
+.ch-reservation-form-container div.ch-reservation-rooms-container, .ch-reservation-form-container div.ch-reservation-adults-container, .ch-reservation-form-container div.ch-reservation-minors-container {
+  width: 32%;
+  margin-bottom: 15px;
+  margin-right: 2%;
+}
+
+.ch-reservation-form span.ui-spinner.ui-widget.ui-widget-content.ui-corner-all {
+  width: 100%;
+}
+
+.ch-reservation-form-container div.ch-reservation-rate-code-container {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+div.ch-reservation-button-container {
+  width: 25%;
+}
+
+.ch-reservation-form-container div.ch-reservation-button-container {
+  width: 100%;
+  margin-top: 0;
+}
+
+button.ch-reservation-get-rate {
+  padding: 10px 15px;
+  width: 100%;
+  font-size: 1.125em;
+}
+
+.ch-reservation-form-container .ch-reservation-minors-container {
+  margin-right: 0!important;
+}
+
+button.ch-reservation-get-rate {
+  height: auto;
+}
