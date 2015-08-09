@@ -69,7 +69,7 @@ class CH_Reservation {
 	public function __construct() {
 
 		$this->ch_reservation = 'ch-reservation';
-		$this->version = '1.0.0';
+		$this->version = '1.4.1';
 
 		$this->load_dependencies();
 		$this->set_locale();

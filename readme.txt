@@ -1,5 +1,5 @@
 === iCanWP Reservation Form Connector for Choice Hotels ===
-Contributors: devcon1
+Contributors: devcon1, devcon2
 Tags: choicehotels reservation, choice hotel reservation, choicehotels booking, choice hotel booking
 Requires at least: 3.0.1
 Tested up to: 4.2.2
@@ -13,6 +13,7 @@ Creates reservation form that connects with Choicehotels.com reservation system.
 iCanWP Reservation Form Connector for Choice Hotels is developed for Wordpress hosted ChoiceHotel websites to have own reservation form that connects to the dedicated hotel's reservation page on ChoiceHotels.com. This feature makes the reservation process easier for the hotel's customers and prevents them to go directly to the ChoiceHotels.com and compare against competitors. As of July 30th, 2015, it is confirmed to work with the following franchise of ChoiceHotels:
 
 * Ascend Hotel Collection
+* Cambria Hotels and Suites
 * Comfort Inn
 * Comfort Suites
 * Sleep Inn
@@ -27,7 +28,7 @@ iCanWP Reservation Form Connector for Choice Hotels is developed for Wordpress h
 == Installation ==
 This section describes how to install the plugin and get it working.
 
-1. Upload 'ch-reservation' directory to the '/wp-content/plugins/' directory
+1. Upload 'icanwp-reservation-form-connector-for-choice-hotels' directory to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Use shortcode '[ch-reservation rows=1]' in posts or pages. The plugin is responsive, but has required minimum width. Please use between 1 ~ 4 options in the 'rows=' section of the shortcode to adjust the display width on your desired section of the website.
 4. If you enable 'Allow Shortcode from the "Text" widget', you can also use it in the text widget.
@@ -71,6 +72,10 @@ Yes.
 
 = 1.4 =
 * Selection of any day for check-in made available regardless of the checkout date to improve usability.
+
+= 1.4.1 =
+* Admin panel image url updated
+
 
 == Support ==
 * This plugin is provided as is without any warranty. However, this plugin will be tested and updated periodically to work with the ChoiceHotels' reservation system and latest version of WordPress.

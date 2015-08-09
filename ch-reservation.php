@@ -16,7 +16,7 @@
  * Plugin Name:       iCanWP Reservation Form Connector for Choice Hotels
  * Plugin URI:        https://icanwp.com/
  * Description:       Creates a reservation form that connects with a specific hotel from ChoiceHotels.com's reservation.
- * Version:           1.4
+ * Version:           1.4.1
  * Author:            Web Marketing Smart, Sean Roh, Chris Couweleers
  * Author URI:        https://icanwp.com/
  * License:           GPL-2.0+
