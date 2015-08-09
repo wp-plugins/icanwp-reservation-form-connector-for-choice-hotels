@@ -31,20 +31,20 @@
 			<li>Copy the URL (website address) of your hotel's dedicated page from ChoiceHotels.com</li>
 			<li>Paste the URL into the "ChoiceHotels Website URL" field on this page.</li>
 		</ol>
-		<img src="<?php echo plugins_url() . '/ch-reservation/admin/assets/choicehotels-location-url.png' ?>" />
+		<img src="<?php echo plugins_url() . '/icanwp-reservation-form-connector-for-choice-hotels/admin/assets/choicehotels-location-url.png' ?>" />
 		<div class="clearfix"></div>
 	<div class="ch_reservation-plugin-desc">
 		<h3>How to display the form</h3>
 		<p><strong>Shortcode Method:</strong> copy and paste <span class="ch_shortcode_select">&nbsp;&nbsp;&nbsp;&nbsp;<strong> [ch-reservation] </strong>&nbsp;&nbsp;&nbsp;&nbsp;</span> to the content area of any pages and or posts.</p>
 		<p>Please go to "<a href="<?php echo admin_url( 'admin.php?page=ch_advanced_menu'); ?>">Advanced Options</a>" page for using a shortcode in the text widget to display the reservation form on the sidebar.</p>
 		<p><strong>Choose Your Fit:</strong></p>
-		<p><strong>One Row:</strong> <span class="ch_shortcode_select">&nbsp;&nbsp;&nbsp;&nbsp;<strong> [ch-reservation rows=1] </strong>&nbsp;&nbsp;&nbsp;&nbsp;</span></p><img src="<?php echo plugins_url() . '/ch-reservation/admin/assets/one-row.png' ?>" />
+		<p><strong>One Row:</strong> <span class="ch_shortcode_select">&nbsp;&nbsp;&nbsp;&nbsp;<strong> [ch-reservation rows=1] </strong>&nbsp;&nbsp;&nbsp;&nbsp;</span></p><img src="<?php echo plugins_url() . '/icanwp-reservation-form-connector-for-choice-hotels/admin/assets/one-row.png' ?>" />
 		<hr>
-		<p><strong>Two Rows:</strong> <span class="ch_shortcode_select">&nbsp;&nbsp;&nbsp;&nbsp;<strong> [ch-reservation rows=2] </strong>&nbsp;&nbsp;&nbsp;&nbsp;</span></p><img src="<?php echo plugins_url() . '/ch-reservation/admin/assets/two-rows.png' ?>" />
+		<p><strong>Two Rows:</strong> <span class="ch_shortcode_select">&nbsp;&nbsp;&nbsp;&nbsp;<strong> [ch-reservation rows=2] </strong>&nbsp;&nbsp;&nbsp;&nbsp;</span></p><img src="<?php echo plugins_url() . '/icanwp-reservation-form-connector-for-choice-hotels/admin/assets/two-rows.png' ?>" />
 		<hr>
-		<p><strong>Three Rows:</strong> <span class="ch_shortcode_select">&nbsp;&nbsp;&nbsp;&nbsp;<strong> [ch-reservation rows=3] </strong>&nbsp;&nbsp;&nbsp;&nbsp;</span></p><img src="<?php echo plugins_url() . '/ch-reservation/admin/assets/three-rows.png' ?>" />
+		<p><strong>Three Rows:</strong> <span class="ch_shortcode_select">&nbsp;&nbsp;&nbsp;&nbsp;<strong> [ch-reservation rows=3] </strong>&nbsp;&nbsp;&nbsp;&nbsp;</span></p><img src="<?php echo plugins_url() . '/icanwp-reservation-form-connector-for-choice-hotels/admin/assets/three-rows.png' ?>" />
 		<hr>
-		<p><strong>Four Rows:</strong> <span class="ch_shortcode_select">&nbsp;&nbsp;&nbsp;&nbsp;<strong> [ch-reservation rows=4] </strong>&nbsp;&nbsp;&nbsp;&nbsp;</span></p><img src="<?php echo plugins_url() . '/ch-reservation/admin/assets/four-rows.png' ?>" />
+		<p><strong>Four Rows:</strong> <span class="ch_shortcode_select">&nbsp;&nbsp;&nbsp;&nbsp;<strong> [ch-reservation rows=4] </strong>&nbsp;&nbsp;&nbsp;&nbsp;</span></p><img src="<?php echo plugins_url() . '/icanwp-reservation-form-connector-for-choice-hotels/admin/assets/four-rows.png' ?>" />
 		<div class="clearfix"></div>
 		<p><i>Thank you for using our plugin! Please rate, review etc <a href="#">....</a></i></p>
 	
